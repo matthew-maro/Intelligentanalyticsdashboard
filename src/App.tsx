@@ -77,11 +77,9 @@ export default function App() {
       event: "Event Analysis",
       location: "Multiple Locations",
       date: new Date().toLocaleDateString("en-US", { 
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-        hour: "numeric",
-        minute: "2-digit"
+        day: "numeric", 
+        month: "short", 
+        year: "numeric" 
       }),
     };
     
